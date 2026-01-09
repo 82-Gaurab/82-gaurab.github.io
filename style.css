@@ -1,0 +1,22 @@
+body {
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+div {
+  font-family: "Jua";
+  font-size: 70px;
+}
+
+div p {
+  padding: 0;
+  margin: 0;
+}
+div p span {
+  transition: all 0.2s ease-in-out;
+}
+div p span:hover {
+  font-size: 90px;
+}
